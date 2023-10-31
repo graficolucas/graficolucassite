@@ -1,0 +1,158 @@
+/* Estilo para todos os elementos nas três páginas */
+* {font-family: Helvetica;
+    background-color: rgb(30, 29, 29);
+    color: rgb(242, 241, 234);
+    line-height: 0%;
+    
+}
+/* Estilo para o marquee */
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    /* Fundo branco */
+    color: rgb(189, 193, 198);
+    /* Fonte preta */
+    animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.text {
+    color: rgb(189, 193, 198);
+    margin-top: 100px;
+    font: Helvetica 41px/1.2 "proxima-nova";
+    letter-spacing: -5px;
+}
+nav {
+    text-align: right;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 3%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(189, 193, 198);
+}
+
+/* Estilo para títulos nas seções "About" e "Contact" */
+h1 {
+    color: rgb(189, 193, 198);
+    font-size: 80px;
+    
+
+}
+
+/* Estilo para parágrafos nas seções "About" e "Contact" */
+p {
+    line-height: 1.6;
+}
+
+/* Estilo para a tabela */
+.image-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Estilo para as células da tabela */
+.image-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Estilo para as imagens nas células */
+.image-table img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilo para a tabela */
+.section-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Estilo para as células da tabela */
+.section-table td {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Estilo para os links nas células */
+.section-table td a {
+    text-decoration: none;
+    /* Remover sublinhado dos links */
+    display: inline-block;
+    /* Para limitar a área do link apenas ao texto */
+    border-bottom: 1px solid #ddd;
+    /* Adicionar uma borda apenas abaixo do texto */
+    padding-bottom: 20px;
+    /* Espaçamento para melhorar a aparência */
+}
+
+/* Estilo para os títulos (h1) nas células */
+.section-table td h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    /* Adicione margem inferior para separar os títulos */
+    font-size: 80px;
+    /* Tamanho de fonte ajustado */
+}
+
+body {
+    background-image: url('');
+    background-size: cover;
+}
+
+/* Estilo para os títulos (h1) nas células */
+.section-table td h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 80px;
+    transition: color 0.3s;
+    /* Adiciona uma transição suave de cor */
+}
+
+/* Quando o mouse passar por cima, o texto ficará verde */
+.section-table td h1:hover {
+    color: rgb(61, 229, 61);
+    /* Cor verde */
+}
+
+/* Estilo para parágrafos nas seções "About" e "Contact" */
+p {
+    line-height: 1.6;
+    transition: color 0.3s;
+    /* Adiciona uma transição suave de cor */
+}
+
+/* Quando o mouse passar por cima, o texto ficará verde */
+   footer {
+       position: absolute;
+       bottom: 0;
+       text-align: left;
+       width: 100%;
+       padding: 10px;
+   }
