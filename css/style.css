@@ -59,6 +59,15 @@ h1 {
 
 }
 
+h2 {
+    color: rgb(189, 193, 198);
+        font-size: 80px;
+        margin-bottom: 15px;
+        /* Adicione margem inferior para separar o texto */
+        line-height: 0.8;
+        /* Ajuste a altura da linha para melhorar a legibilidade */
+    }
+
 /* Estilo para parágrafos nas seções "About" e "Contact" */
 p {
     line-height: 1.6;
